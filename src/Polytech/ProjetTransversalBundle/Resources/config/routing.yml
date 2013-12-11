@@ -1,0 +1,11 @@
+Project_homepage:
+    pattern:  /
+    defaults: { _controller: PolytechProjetTransversalBundle:Default:index }
+
+Project_user_register:
+    pattern:  /user/register
+    defaults: { _controller: PolytechProjetTransversalBundle:Default:register }
+
+Project_user_connected:
+    pattern:  /user/connected
+    defaults: { _controller: PolytechProjetTransversalBundle:Default:connected }
