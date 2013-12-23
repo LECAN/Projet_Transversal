@@ -9,3 +9,11 @@ Project_user_register:
 Project_user_connected:
     pattern:  /user/connected
     defaults: { _controller: PolytechProjetTransversalBundle:Default:connected }
+
+Project_generateODT:
+    pattern:  /generateODT
+    defaults: { _controller: PolytechProjetTransversalBundle:Default:generateODT }
+
+Project_build:
+    pattern:  /build
+    defaults: { _controller: PolytechProjetTransversalBundle:Default:build }
